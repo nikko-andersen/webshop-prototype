@@ -1,10 +1,11 @@
 import React from 'react'
 
-//imports from material-ui
+//imports from material-ui ...
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
 
 import useStyles from './productStyles';
+
 
 const Product = ({ product }) => {
     const classes = useStyles();
