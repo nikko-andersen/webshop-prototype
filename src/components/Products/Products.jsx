@@ -4,12 +4,8 @@ import Product from './Product/Product';
 
 import useStyles from './productsStyles';
 
-const products = [
-    { id: 1, name: 'Shoes', description: 'Running shoes', price: '100 DKK', image: 'https://homepages.cae.wisc.edu/~ece533/images/boat.png'},
-    { id: 2, name: 'Computer', description: 'acer computer', price: '4999 DKK', image: 'https://homepages.cae.wisc.edu/~ece533/images/boat.png'},
-];
 
-const Products = () => {
+const Products = ({ products }) => {
     const classes = useStyles();
 
     return (
